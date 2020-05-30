@@ -1,0 +1,209 @@
+/**************************************************************
+	Author - Arsharaj Chauhan
+	Date - 6 Apr 2020
+	Category - Personal Website
+	Copyright 2020 Arsharaj Chauhan
+****************************************************************/
+
+/********************** Global Styles *************************/
+html{
+	color: white;
+	font-family: "Marcellus", sans-serif;
+    scroll-behavior: smooth;
+}
+
+/********* Arsharaj Chauhan Main Section Styles **************/
+
+.arsharaj{
+	background-color: #002E73;
+}
+
+.arsharaj .navbar .my-nav {
+	flex-direction: row-reverse;
+}
+
+.arsharaj .navbar a.my-nav-item{
+	margin-right: 10px;
+	padding: 10px 25px;
+	color: white;
+	font-size: 1.2em;
+	font-family: "Marcellus", sans-serif;
+}
+
+.arsharaj .navbar a.my-nav-item:hover{
+	background-color: rgba(0,0,0,0.5);
+	color: white; 
+	transition: 0.5s;
+	border-radius: 10px;
+	z-index: 2;
+}
+
+.arsharaj .main-heading{
+	padding-top: 5%;
+}
+
+.arsharaj .main-heading a{
+    text-decoration: none;
+}
+
+.arsharaj .main-heading a h4:hover{
+    transform: scale(1.05);
+}
+
+.arsharaj .my-main-heading{
+	color: white;
+	font-family: "Marcellus", sans-serif;
+	font-weight: normal;
+	font-size: 3em;
+}
+
+.arsharaj .my-divider{
+	background-color: white;
+	border-bottom: #fff solid 2px;
+	width: 25%;
+}
+
+.arsharaj .my-skills{
+	padding: 10px 25px;
+}
+
+.arsharaj .skills{
+	color: white;
+	font-family: "Marcellus", sans-serif;
+	font-size: 1.2em;
+	background-color: rgba(0,0,0,0.3);
+	padding: 10px 20px;
+	text-align: center;
+	border-radius: 10px;
+}
+
+.arsharaj .skills:hover{
+	background-color: (0,0,0,1);
+}
+
+.arsharaj .arsharaj-illustration{
+	display: block;
+	margin: auto;
+	height: auto;
+	width: 100%;
+}
+
+/********************** Web Developer Styles *************************/
+.web-developer{
+	background-color: #A7A7A7;
+	padding: 3% 0px;
+}
+
+.web-developer .web-image{
+	width: 75%;
+	object-fit: fill;
+	padding: 10% 2%;
+}
+
+.web-developer .my-divider{
+	background-color: #002E73;
+	border-bottom: #002E73 solid 2px;
+	width: 50%;
+	left: 0px;
+	display: block;
+	float: left;
+}
+
+.web-developer h3{
+	font-size: 2.5em;
+	font-family: "Marcellus", sans-serif;
+	color: #002E73;
+}
+
+/******************* Flutter Developer **********************/
+.flutter-developer{
+    padding: 5% 0px;
+	background-color: #78005E;
+	color: white;
+	font-family: "Marcellus", sans-serif;
+}
+
+.flutter-developer .row{
+    margin-right: 15px;
+}
+
+.flutter-developer .my-divider{
+	background-color: white;
+	border-bottom: white solid 2px;
+	width: 50%;
+	right: 0px;
+	display: inline-block;
+}
+
+.flutter-developer h3{
+	font-size: 2.5em;
+}
+
+.flutter-developer img{
+    overflow: hidden;
+}
+
+/****************** Competitive Coding *****************/
+.competitive-coding{
+    padding: 5% 0px 0px 0px;
+    background-color: #FFC5C5;
+    color: #78005E;
+    font-family: "Marcellus", sans-serif;
+}
+
+.competitive-coding h3{
+    font-size: 2.5em;
+    padding: 2%;
+}
+
+.competitive-coding .my-divider{
+    background-color: #78005E;
+    width: 50%;
+    border-bottom: #78005E solid 2px;
+    margin-bottom: 10%;
+
+    
+}
+
+/****************** About Me ********************/
+.about-me{
+    background-color: #078AB4;
+    color: white;
+    padding: 5% 0px;
+    font-family: "Marcellus", sans-serif;
+}
+
+.about-me h3{
+    font-size: 2.5em;
+    padding-bottom: 3%;
+}
+
+.about-me p{
+    padding: 0px 5%;
+    font-size: 1.5em
+}
+
+/******************** Social Icons ******************/
+.social-icons{
+    background-color: #151010;
+    color: white;
+    font-family: "Marcellus", sans-serif;
+    padding: 3% 0px;
+}
+
+.social-icons .my-divider{
+    background-color: white;
+    width: 15%;
+    margin-bottom: 2em;
+}
+
+.social-icons a{
+    color: whitesmoke;
+}
+
+.social-icons a:hover{
+    color: aqua;
+}
+
+
+/********************* UI design completed *******************8*/
